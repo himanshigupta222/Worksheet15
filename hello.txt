@@ -1,0 +1,80 @@
+Mission 01: One Cook, Many Recipe Cards
+1. With 50 pizzas on the menu, Plan A needs 50 cooks. Is that a good plan? Yes / No: No
+2. What if a pizza is ordered once a month?
+No.
+3. Plan B: Hire ONE cook who cannot cook anything from memory, but follows a written recipe card perfectly, step by step. What does Raju need to add to the menu now? Does the cook need to understand pizza?
+No, he just needs to perform the instructions.
+4. Can the same cook do it if Raju adds a card that is not a pizza at all — "count today's orders"?
+Yes.
+5. Final slip: 1 0 0
+That number is 4
+Is 3 + 1 = that? Yes.
+Lines used: 7
+6. Did you need to understand what "adding" means to get the right answer? Did the cook?
+No.
+
+
+Mission 02: Writing a Message with Ticks and Crosses
+1. Box 1 cuts 8 pizzas to 4. Box 2 cuts 4 to 2. Box 3 cuts 2 to 1.
+- 8 pizzas need 3 boxes.
+- 16 pizzas need 4 boxes.
+- 2 pizzas need 1 box.
+2. Write the code for Olive: 0 1 1.
+Which pizza is 1 1 0? Farmhouse.
+3. Which slips save the most ink: short codes for common pizzas or short codes for rare ones? If you had to guess an order before reading the slip, which one would surprise you?
+For common ones.
+Mission 03: A Helper Who Learns the Spam Rule
+1. Final scorecard:
+- D = 1
+- L = 1
+In words, the rule the helper found by itself:
+SPAM tray when D == 1 and L == 1.
+2. Now test that rule on all 5,572 real messages:
+- Right = 597 + 4,788 = 5485
+- Accuracy = 5,385 ÷ 5,572 = 96.64%
+- Spam it lets through: 150 of 747 = 20.08%
+- Real orders it throws in the spam tray: 37 of 4,825 = 0.77%
+3. A lazy helper who puts every message in the ORDER tray gets 4825 of 5,572 right = 86.54%.
+4. Raju says:
+"96.6% correct! Almost perfect. I will never check the spam tray again."
+DISAGREE, because: it works in this specific case. It will be more in case of more number of spam mails.
+5. Before you know the lazy score, 96.6% sounded great. What will you now always ask when someone says "my model is 96% accurate"?
+
+
+Mission 04: The Job the Helper Can Never Learn
+1. Left (Spam Job)
+Draw ONE straight line with SPAM on one side and the three ORDER corners on the other.
+Possible? Yes.
+2. Right (Light Job)
+Draw ONE straight line with the two ON corners on one side and the two OFF corners on the other.
+Possible? No.
+3. Why does the scorecard fail? If switch A alone scores enough to turn the light ON, and switch B alone scores enough — what happens when both are up?
+If exactly one of A and B is on, then the light is on, but if both are on, then the light becomes off, which is a problem and should not happen.
+
+
+Mission 05: Who wrote it first?
+1.Bunty gets the slip: own counter 1, slip says 3 → max(1, 3) + 1 = _4___. Bunty takes order B →__5__. Amit takes order 3 → __4__.
+
+
+WRAP-UP:
+What you built today
+
+Term                   Draw a line to its meaning
+Turing machine         a machine that follows step by step instructions to do some process.
+Bit                    the smallest unit - 0 or 1
+Perceptron             works like a neuron . takes input and wiegths
+Baseline               starting values of wieghts
+XOR                    exactly one of a or b is true
+Logical clock          counter used to determine order of something occurence
+
+Myth or reality? Tick one, then write the mission that proves it.
+claim                                                                  myth/reality
+A cook who follows the recipe card perfectly understands pizza.        myth 
+A longer message always carries more information.                      myth 
+Somebody wrote the rule "digits AND long" on the scorecard.            reality  
+With enough training, one scorecard helper can learn any rule.         myth 
+Two perfect watches always agree which order came first.               myth 
+
+Raju asks: "So does my phone understand which messages are orders?" Answer in two
+sentences, using the words rules and learned.
+No. The phone doesn't understand which messages are orders. It just follows the rule and, according to that, classifies whether it is an order or spam, so it does not think or learn. It just follows the rules. 
